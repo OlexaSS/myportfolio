@@ -9780,6 +9780,11 @@ body {
 }
 
 .template .info {
+  min-height: 335px;
+}
+
+.template .info,
+.template .info-works {
   position: relative;
   padding: 25px 15px;
   background: #fff;
@@ -9792,6 +9797,14 @@ body {
 }
 
 .template .info .h4 {
+  line-height: 1;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.template .info-works .h4 {
   line-height: 1;
   margin-bottom: 0;
   font-size: 16px;
@@ -9855,7 +9868,7 @@ body {
   margin-bottom: 0;
 }
 
-.info {
+.info .info-works {
   padding: 20px;
   margin-bottom: 40px;
   font-size: 16px;
@@ -10032,6 +10045,15 @@ body {
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
+}
+
+.info-list {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.info-list li {
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 0\0) {
